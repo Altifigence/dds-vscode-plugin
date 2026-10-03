@@ -1,5 +1,7 @@
 # DDS integration for Visual Studio Code
 
+[Official integration guide](https://docs.altifigence.com/products/digital-design-studio/plugins/) · [한국어](https://docs.altifigence.com/ko-kr/products/digital-design-studio/plugins/) · [Build a DDS plugin](https://docs.altifigence.com/developers/plugin-sdk/) · [Releases](https://github.com/Altifigence/dds-vscode-plugin/releases)
+
 The open-source integration behind the **VS Code** entry in Digital Design
 Studio's Plugins catalog. It registers DDS's device-wide integration setting,
 detects a separately installed VS Code application, and opens the current DDS
