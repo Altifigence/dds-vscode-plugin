@@ -1,0 +1,7 @@
+# Exact source snapshot hashes must survive Windows checkout and GitHub clones.
+* text=auto eol=lf
+/dds-source/** -text
+/native/src/source/** -text
+/src/desktopVsCodeIntegration.ts -text
+/src/vsCodeIntegration.ts -text
+/src/vsCodeIntegrationChanges.ts -text

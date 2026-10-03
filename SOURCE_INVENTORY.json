@@ -1,0 +1,227 @@
+{
+  "schema": "dds-public-source-inventory-v1",
+  "sourceCommit": "a9f80387527c9fadf2d09fcd5db898755b09f2a6",
+  "license": "Apache-2.0",
+  "scope": "Only the listed original source files and inclusive line ranges are granted under Apache-2.0 in this public repository. Other DDS source is outside this grant.",
+  "sources": [
+    {
+      "sourcePath": "src-tauri/src/external_editors.rs",
+      "sourceSha256": "3e87c2d7f3fa82c582c4ae06dc01b67d08e3e84839d76b41e6de7ab0b1bd0eab",
+      "completeFile": true,
+      "snapshotPath": "dds-source/src-tauri/src/external_editors.rs"
+    },
+    {
+      "sourcePath": "src-tauri/src/external_editor_integration.rs",
+      "sourceSha256": "c6c1798214ae24d657ac305a00ffbf19b2377f266742d486ede7b9aa02f4c756",
+      "completeFile": true,
+      "snapshotPath": "dds-source/src-tauri/src/external_editor_integration.rs"
+    },
+    {
+      "sourcePath": "src-tauri/src/external_editors_tests.rs",
+      "sourceSha256": "4d6af6ab68f6326ed21060e5ca81f26142eb6a80f80c02f05631dde862da40ec",
+      "completeFile": true,
+      "snapshotPath": "dds-source/src-tauri/src/external_editors_tests.rs"
+    },
+    {
+      "sourcePath": "src/desktopVsCodeIntegration.ts",
+      "sourceSha256": "223404a9798084f1e11c088af146d1ea09e6e038213156c76e4b1b835ca6cc5f",
+      "completeFile": true,
+      "snapshotPath": "dds-source/src/desktopVsCodeIntegration.ts"
+    },
+    {
+      "sourcePath": "ui/packages/console-core/src/lib/vsCodeIntegration.ts",
+      "sourceSha256": "40622b4040318196be2dae3f8b984424bdb16b7b31d6d4854e6f523e679ec3a7",
+      "completeFile": true,
+      "snapshotPath": "dds-source/ui/packages/console-core/src/lib/vsCodeIntegration.ts"
+    },
+    {
+      "sourcePath": "ui/packages/console-core/src/lib/vsCodeIntegrationChanges.ts",
+      "sourceSha256": "644f01c40dd9be8ce0da22875c23cadf267e5cbe4bcf2e49801894e5ce13f62e",
+      "completeFile": true,
+      "snapshotPath": "dds-source/ui/packages/console-core/src/lib/vsCodeIntegrationChanges.ts"
+    },
+    {
+      "sourcePath": "security/desktop-runtime-security/src/lib.rs",
+      "sourceSha256": "abd0cbd29b3ad9e61e59ab8dd22065808f48a7d1917a111c33c7212d39fa4032",
+      "completeFile": false
+    },
+    {
+      "sourcePath": "engines/desktop-wsl-backend/src/transport.rs",
+      "sourceSha256": "ad02a42f531d1adcb6ae59d628f2188a621bb4b2f20cc06ffa383f4649ba7740",
+      "completeFile": false
+    },
+    {
+      "sourcePath": "engines/desktop-wsl-backend/src/lib.rs",
+      "sourceSha256": "cf9dde2ab5e4b25a2831087d340a73ce82c4b4c99455d66a3a99f513a10edb27",
+      "completeFile": false
+    }
+  ],
+  "compilations": [
+    {
+      "outputPath": "native/src/source/editor_policy.rs",
+      "sourcePath": "src-tauri/src/external_editors.rs",
+      "transformation": "concatenate-exact-line-ranges",
+      "sha256": "23852268c4aae013cb7b0925b2b911a5deafdbd5239f202b3121748838b29a98",
+      "ranges": [
+        {
+          "startLine": 1,
+          "endLine": 9,
+          "sha256": "d95b49e54577887c32e77874adde31f34b9a55469a46dfb6c9e44f75aa82d900"
+        },
+        {
+          "startLine": 12,
+          "endLine": 12,
+          "sha256": "b8315977006ce8e83da12b5a8ed11b047738d9150c5046723ef0c2086d7e48c5"
+        },
+        {
+          "startLine": 16,
+          "endLine": 16,
+          "sha256": "5eb1a1d869940aa652c6d1be5760d3103accc6bfe9411f8ef9980a9a896a6508"
+        },
+        {
+          "startLine": 19,
+          "endLine": 143,
+          "sha256": "b582eef6e112dae152665cf78f7177e94690ce1706271208b2fb94b5f3428a89"
+        },
+        {
+          "startLine": 157,
+          "endLine": 206,
+          "sha256": "18ca1872629231baaa4f3b3c23294f5d01339ab349bf6412898e7faf9d1651c5"
+        },
+        {
+          "startLine": 217,
+          "endLine": 225,
+          "sha256": "d6366b9c2799edeccf0add481d87f74991ab0b163280b921156080b98b9c7261"
+        },
+        {
+          "startLine": 274,
+          "endLine": 310,
+          "sha256": "e8172e65ce4632fae58f8f03d82eb13d1ae38a24eba13dd0a247ffc68d4946fc"
+        }
+      ]
+    },
+    {
+      "outputPath": "native/src/source/vscode_policy.rs",
+      "sourcePath": "src-tauri/src/external_editor_integration.rs",
+      "transformation": "concatenate-exact-line-ranges",
+      "sha256": "2de7ddbb0968ed9caeff8f73b61ca204e95c3aae28f393b13e88157c69a7a191",
+      "ranges": [
+        {
+          "startLine": 7,
+          "endLine": 22,
+          "sha256": "a467373cd1c5cf7714db0a5e404f1ffc2e2ac1d3d17938284335305a86d5356c"
+        },
+        {
+          "startLine": 117,
+          "endLine": 212,
+          "sha256": "985793400db0d4ea478bbf139f7060ff4d0cfaec697ed7114794f3717cde0e99"
+        }
+      ]
+    },
+    {
+      "outputPath": "native/src/source/vscode_policy_tests.rs",
+      "sourcePath": "src-tauri/src/external_editor_integration.rs",
+      "transformation": "concatenate-exact-line-ranges",
+      "sha256": "4c79f8e63c97dc871ec2f5bf9cdc93108e580c9de3c5e3586c9e64885c55fa49",
+      "ranges": [
+        {
+          "startLine": 225,
+          "endLine": 268,
+          "sha256": "4c79f8e63c97dc871ec2f5bf9cdc93108e580c9de3c5e3586c9e64885c55fa49"
+        }
+      ]
+    },
+    {
+      "outputPath": "native/src/source/environment.rs",
+      "sourcePath": "security/desktop-runtime-security/src/lib.rs",
+      "transformation": "concatenate-exact-line-ranges",
+      "sha256": "b1d6d6dd1ac497bc28a100a976b39d01a03ecdcb0e6a6a0b61ddfaeedd67d9ac",
+      "ranges": [
+        {
+          "startLine": 19,
+          "endLine": 70,
+          "sha256": "b344a3da5e2a54174396162e79740ec44413970730a0e2da019bc6341e6026e4"
+        },
+        {
+          "startLine": 150,
+          "endLine": 167,
+          "sha256": "9bb8b46ad3954817231f139b71388fe9b1feae26ea545070f538718770e9d17d"
+        },
+        {
+          "startLine": 598,
+          "endLine": 604,
+          "sha256": "4dfe1503d123703eaaabeffaf6ef109dbb2d96ca53121b14e28ada4b257ac13d"
+        }
+      ]
+    },
+    {
+      "outputPath": "native/src/source/wsl_project.rs",
+      "sourcePath": "engines/desktop-wsl-backend/src/transport.rs",
+      "transformation": "concatenate-exact-line-ranges",
+      "sha256": "de0a7b9391a8549f0f8ddb864067819a97b65e352c34f7e0d1a778a080b765af",
+      "ranges": [
+        {
+          "startLine": 29,
+          "endLine": 74,
+          "sha256": "de0a7b9391a8549f0f8ddb864067819a97b65e352c34f7e0d1a778a080b765af"
+        }
+      ]
+    },
+    {
+      "outputPath": "native/src/source/run_process.rs",
+      "sourcePath": "engines/desktop-wsl-backend/src/transport.rs",
+      "transformation": "concatenate-exact-line-ranges",
+      "sha256": "2f3b38c8eed78215c97fa3312223ff77096474c1e35a392e6cab8791f6edb594",
+      "ranges": [
+        {
+          "startLine": 996,
+          "endLine": 1105,
+          "sha256": "2f3b38c8eed78215c97fa3312223ff77096474c1e35a392e6cab8791f6edb594"
+        }
+      ]
+    },
+    {
+      "outputPath": "native/src/source/validate_project.rs",
+      "sourcePath": "engines/desktop-wsl-backend/src/lib.rs",
+      "transformation": "concatenate-exact-line-ranges",
+      "sha256": "02d7cfdef04b84b3f36bafa71ddf907f4fc459f201f6ddf67cbfc196e13ced2a",
+      "ranges": [
+        {
+          "startLine": 149,
+          "endLine": 162,
+          "sha256": "02d7cfdef04b84b3f36bafa71ddf907f4fc459f201f6ddf67cbfc196e13ced2a"
+        }
+      ]
+    },
+    {
+      "outputPath": "src/desktopVsCodeIntegration.ts",
+      "sourcePath": "src/desktopVsCodeIntegration.ts",
+      "transformation": "public-import-paths-only",
+      "sha256": "e6bbfb8b9bf725a0bf0ed390f3b1a7119052a797cb0661ffcdee5313c2fbc385",
+      "replacements": [
+        [
+          "'@altifigence-internal/console-core/lib/vsCodeIntegration.js'",
+          "'./vsCodeIntegration.js'"
+        ],
+        [
+          "'@altifigence-internal/console-core/lib/vsCodeIntegrationChanges.js'",
+          "'./vsCodeIntegrationChanges.js'"
+        ]
+      ]
+    },
+    {
+      "outputPath": "src/vsCodeIntegration.ts",
+      "sourcePath": "ui/packages/console-core/src/lib/vsCodeIntegration.ts",
+      "transformation": "public-import-paths-only",
+      "sha256": "40622b4040318196be2dae3f8b984424bdb16b7b31d6d4854e6f523e679ec3a7",
+      "replacements": []
+    },
+    {
+      "outputPath": "src/vsCodeIntegrationChanges.ts",
+      "sourcePath": "ui/packages/console-core/src/lib/vsCodeIntegrationChanges.ts",
+      "transformation": "public-import-paths-only",
+      "sha256": "644f01c40dd9be8ce0da22875c23cadf267e5cbe4bcf2e49801894e5ce13f62e",
+      "replacements": []
+    }
+  ]
+}

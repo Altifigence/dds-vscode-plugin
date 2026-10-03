@@ -1,0 +1,26 @@
+DDS VS Code integration
+Copyright 2026 Altifigence
+
+Altifigence grants the original integration source files and exact source ranges
+listed in SOURCE_INVENTORY.json, and the new code in this repository, under the
+Apache License, Version 2.0. This selected-source grant includes the integration
+files exported from DDS console-core, whose remaining package source is outside
+this repository and outside this grant. Byte-preserved snapshots retain their
+original notices; this NOTICE supplies the explicit grant for files that had no
+individual license header. See LICENSE for the complete terms.
+
+Visual Studio Code and Microsoft are trademarks of Microsoft Corporation.
+Altifigence's integration is independently developed and is not affiliated with,
+endorsed by, or published by Microsoft. No Microsoft product binary, extension
+package, source file, logo or brand image is included in this repository.
+
+VS Code open-source source code uses the MIT license. Microsoft's distributed
+Visual Studio Code product uses separate Microsoft Software License Terms.
+Extension packages, Marketplace access, and brand assets have separate terms;
+the Apache-2.0 license on this integration does not grant rights to them.
+
+Official references:
+https://github.com/microsoft/vscode/blob/main/LICENSE.txt
+https://code.visualstudio.com/License/
+https://aka.ms/vsmarketplace-ToU
+https://code.visualstudio.com/brand

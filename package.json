@@ -1,0 +1,25 @@
+{
+  "name": "@altifigence/dds-vscode-plugin",
+  "version": "1.0.0",
+  "description": "DDS integration adapter for separately installed Visual Studio Code",
+  "type": "module",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altifigence/dds-vscode-plugin.git"
+  },
+  "homepage": "https://github.com/Altifigence/dds-vscode-plugin#readme",
+  "bugs": "https://github.com/Altifigence/dds-vscode-plugin/issues",
+  "engines": { "node": ">=22.23.1" },
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "files": ["dist", "src", "tsconfig.json", "tests", "dds-source", "native/Cargo.toml", "native/Cargo.lock", "native/rust-toolchain.toml", "native/src", "native/tests", "scripts/verify-source.mjs", "SOURCE_INVENTORY.json", "LICENSE", "NOTICE", "README.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test tests/*.test.mjs && node scripts/verify-source.mjs",
+    "verify:source": "node scripts/verify-source.mjs",
+    "test:native": "cargo test --manifest-path native/Cargo.toml --locked --all-targets",
+    "check:native": "cargo clippy --manifest-path native/Cargo.toml --locked --all-targets -- -D warnings",
+    "prepack": "npm test"
+  },
+  "devDependencies": { "typescript": "5.8.2" }
+}

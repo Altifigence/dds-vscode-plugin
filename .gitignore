@@ -1,0 +1,10 @@
+node_modules/
+dist/
+native/target/
+*.tgz
+*.vsix
+*.exe
+*.dll
+*.msix
+*.zip
+.package-smoke/

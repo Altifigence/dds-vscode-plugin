@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: 2026 Altifigence
+# SPDX-License-Identifier: Apache-2.0
+[package]
+name = "dds-vscode-integration"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.88"
+license = "Apache-2.0"
+description = "Public native policy and host ports for the DDS VS Code integration"
+repository = "https://github.com/Altifigence/dds-vscode-plugin"
+publish = false
+
+[dependencies]
+serde = { version = "=1.0.219", features = ["derive"] }
+serde_json = "=1.0.140"
+
+[target.'cfg(unix)'.dependencies]
+libc = "=0.2.172"
+
+[dev-dependencies]
+tempfile = "=3.20.0"
+
+[[bin]]
+name = "fixture-process"
+path = "tests/fixtures/process.rs"
+
+[workspace]
